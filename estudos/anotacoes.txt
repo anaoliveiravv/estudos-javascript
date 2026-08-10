@@ -1,0 +1,9 @@
+* js foi feito para rodar e ser interpretado no navegador
+* js é exibido no console (f12), nao na tela do usuario
+* para linkar js com html é <script src="script.js" </script>, o ideal é deixar no final do body
+* da pra escrever javascript no html com a tag script
+* para fazer comentarios c mais de uma linha usa /**/ 
+* no js ponto e vírgula é opcional
+* evitar usar var (antigo), let = da pra mudar o valor dps; const = valor fixo, nao da pra mudar dps.
+* escopo global (variaveis declaradas fora de qlqr funcao ou bloco), bloco (acessiveis apenas dentro do bloco de codigo onde foram declaradas), local (declaradas dentro de uma funcao)
+*Hoisting = o JavaScript conhece/processa algumas declarações antes de executar o código.
