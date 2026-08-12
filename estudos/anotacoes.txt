@@ -7,3 +7,25 @@
 * evitar usar var (antigo), let = da pra mudar o valor dps; const = valor fixo, nao da pra mudar dps.
 * escopo global (variaveis declaradas fora de qlqr funcao ou bloco), bloco (acessiveis apenas dentro do bloco de codigo onde foram declaradas), local (declaradas dentro de uma funcao)
 *Hoisting = o JavaScript conhece/processa algumas declarações antes de executar o código.
+
+*var respeita o escopo em que foi criado, let nao. ent por ex se eu quiser printar fora do escopo de bloco uma variavel q eu criei dentro dele, usando let n vai printar, so usando var.
+
+*pode-se começar nome de variaveis usando caracteres especiais tipo _,$,*... mas nao é recomendado
+
+*nao é necessario dizer o tipo de variavel 
+*tipos: string, number, boolean, null (qnd defino pra uma variavel que ela nao tem valor, tipo eu quero q ela seja ninguem, coloco o valor dela pra null na hr de definir), undefined (a variavel existe, mas o valor nao foi definido, tem o vazio depois do igual sabe) -> pra saber qual é o tipo de uma var é so colocar TYPEOF antes dela
+
+*usar ` no console.log permite escrever multiplas linhas
+* ${} para formatar, e nesses casos so use a crase.
+*Para printar numeros nao precisa colocar aspas
+*Nan = not a number
+
+*Conversoes -> Number(x), x.toString() ou String(x), Boolean(x) sendo 1/qlqr numero verdadeiro e 0 falso. caso eu some uma string com um numero, o numero automaticamente se transforma em string.
+
+*sum=soma, average=media, potencia = **
+
+*incremento = x++ => x = x+1 (nao mostrano console), mas ++x mostra
+*decremento = x-- => x = x-1, --x
+*para incrementar/decrementar valores maiores usar +=
+(x+=10, x = x+10)
+
